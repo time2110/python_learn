@@ -2,8 +2,8 @@ import requests
 
 
 def get_url():
-    source = requests.get('http://exercise.kingname.info/exercise_requests_get.html')
-    print(source.content.decode('utf-8'))
+    source = requests.get('https://translate.google.cn/?sl=en&tl=zh-CN&text=ewq&op=translate')
+    print(source.text)
 
 
 def print_hi(name):
